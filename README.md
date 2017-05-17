@@ -28,7 +28,7 @@ DB_PASSWORD=dev<br>
 
 ###### Configuração do amabiente
 Na pasta do ambiente, acesse o terminal executando o comando abaixo
-> docker exec -i -t webdev_php-apache_1 bash
+> docker exec -i -t apisestacionamento_php-apache_1 bash
 
 Build o Laravel
 * Composer
@@ -40,13 +40,6 @@ Instale as dependências do npm
 > php artisan key:generate <br>
 php artisan migrate <br>
 php artisan db:seed
-
-* Gulp
-> npm install -g gulp <br>
-> gulp
-
-* PHPUnit
-> phpunit
 
 ##### Versões utilizadas no projeto
 * Laravel 5.3
