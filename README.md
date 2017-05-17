@@ -4,14 +4,14 @@ Gerenciador de entrada e saida de estacionamento.
 ## Instalação
 
 ###### Ambiente de desenvolvimento
-Instale o Docker e Dcoker compose.
+Instale o Docker e Docker compose.
 
 ###### Estrutura do projeto
 Clone o projeto na raiz, neste exemplo a pasta raiz será será <b>c:\www</b>, ficando desta maneira <b>c:\www\apis-estacionamento</b> o path do projeto.
-> git clone https://github.com/facimed/apis-estacionamento.git
+> git clone https://github.com/DeToNeS/apis-estacionamento.git
 
 ###### Ambiente
-Clone o ambiente, https://github.com/DeToNeS/webdev na raiz, neste exemplo a pasta do ambiente será <b>c:\webdev</b>.
+Clone o ambiente, https://github.com/DeToNeS/webdev na raiz, neste exemplo a pasta do ambiente será <b>c:\apis-estacionamento</b>.
 > git clone https://github.com/DeToNeS/webdev.git
 
 Execute o comando dentro da pasta do ambiente:
