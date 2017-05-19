@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Rotatividade;
+use App\Vagas;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +25,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $vagas = Vagas::all();
+
+        $rot = new Rotatividade();
+
+        $rotatividade = $rot->join('clientes', 'clientes.id', '=', 'rotatividade.cliente')
+                            ->select('rotatividade.entrada', 'clientes.nome')
+                            ->whereNull('saida')
+                            ->get();
+
+        return view('home')->with(['vagas' => $vagas, 'rotatividade' => $rotatividade]);
     }
 }

@@ -32,3 +32,5 @@ Route::get('/clientes/busca', 'Clientes\ClientesController@busca')->name('client
 Route::post('/clientes/criar', 'Clientes\ClientesController@criar')->name('clientes/criar');
 
 Route::post('/clientes/atualizar/{id}', 'Clientes\ClientesController@atualizar')->name('clientes/atualizar');
+
+Route::get('/estacionamento/acesso/{tag}', 'Estacionamento\AcessoController@acesso')->name('estacionamento/acesso');

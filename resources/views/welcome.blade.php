@@ -83,11 +83,11 @@
                 </div>
 
                 <div class="links">
+                    <a href="#">Eduardo Bone</a>
                     <a href="#">Glaubert Dumpierre</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="#">Leonardo Zenatti</a>
+                    <a href="#">Romário Goulart</a>
+                    <a href="#">Vinício Gonçalves</a>
                 </div>
             </div>
         </div>
